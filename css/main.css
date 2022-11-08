@@ -534,6 +534,89 @@ body {
   position: relative;
   display: block;
 }
+.about-top {
+  position: relative;
+  display: block;
+  background: url("../images/img_about.png") no-repeat;
+  background-position: 100% 50%;
+  margin-bottom: 80px;
+}
+.about-top > h2 {
+  position: relative;
+  display: block;
+  font-size: 44px;
+  color: #111;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+.about-top > p {
+  position: relative;
+  display: block;
+  font-size: 15px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+.about-top > p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 37px;
+  height: 5px;
+  background: #ed1c24;
+}
+.about-top > p > b {
+  position: relative;
+  display: block;
+  font-size: 21px;
+  color: #111;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.about-bottom {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.about-list {
+  position: relative;
+  display: inline-block;
+}
+.about-list > li {
+  position: relative;
+  display: block;
+  float: left;
+}
+.about-list > li > a {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  color: #111;
+  font-weight: 500;
+}
+.about-list > li > a::before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 110px;
+  height: 108px;
+  background: url("../images/bg_icon.png") no-repeat;
+  margin-bottom: 25px;
+}
+.about-list > li:nth-child(1) > a::before {
+  background-position: 0px 0px;
+}
+.about-list > li:nth-child(2) > a::before {
+  background-position: -110px 0px;
+}
+.about-list > li:nth-child(3) > a::before {
+  background-position: -220px 0px;
+}
+.about-list > li:nth-child(2) {
+  margin: 0px 200px;
+}
 /* 푸터 */
 .footer {
   position: relative;
