@@ -37,8 +37,7 @@ body {
 .container {
   position: relative;
   display: block;
-  width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 .clearfix::after {
@@ -97,8 +96,7 @@ body {
 .header-inner {
   position: relative;
   display: block;
-  width: 100%px;
-  max-width: 100%;
+  width: 1800px;
   margin: 0 auto;
   height: 79px;
   z-index: 1;
